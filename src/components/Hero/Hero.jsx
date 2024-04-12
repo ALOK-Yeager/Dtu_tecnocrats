@@ -52,7 +52,7 @@ const Hero = () => {
                 <label htmlFor="destination" className="opacity-70 block">
                   <div className="w-full flex justify-between items-center">
                     <p>Max Price</p>
-                    <p className="font-bold text-xl">$ {priceValue}</p>
+                    <p className="font-bold text-xl">{priceValue}</p>
                   </div>
                 </label>
                 <div className=" bg-gray-100 rounded-full p-2 flex items-center justify-center ">
